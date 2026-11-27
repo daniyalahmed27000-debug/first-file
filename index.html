@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🏎️ Car Racing Game</h1>
+
+        <div class="score-board">
+            Score: <span id="score">0</span>
+        </div>
+
+        <div class="game-area">
+            <canvas id="gameCanvas" width="400" height="600"></canvas>
+
+            <div id="message" class="message">
+                <h2 id="messageTitle">Car Racing Game</h2>
+                <p id="messageText">Avoid the other cars!</p>
+                <button id="startButton">Start Game</button>
+            </div>
+        </div>
+
+        <p class="instructions">
+            Use ← → arrow keys or A / D to move
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
